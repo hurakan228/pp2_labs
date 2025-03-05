@@ -44,11 +44,11 @@ def camel_to_snake(s):
 if __name__ == "__main__":
     print(match_a_b("abbb"))  # True
     print(match_a_bbb("abb"))  # True
-    print(find_underscore_sequences("hello_world test_example abc_def"))  # ['hello_world', 'test_example', 'abc_def']
-    print(find_upper_lower("Hello World Test String"))  # ['Hello', 'World', 'Test', 'String']
+    print(find_underscore_sequences("hello_world my_example abc_def"))  # ['hello_world', 'my_example', 'abc_def']
+    print(find_upper_lower("Hello World Test Meow"))  # ['Hello', 'World', 'Test', 'Meow']
     print(match_a_any_b("axyzb"))  # True
     print(replace_with_colon("Hello, world. This is a test"))  # 'Hello:world:This:is:a:test'
     print(snake_to_camel("hello_world_example"))  # 'HelloWorldExample'
     print(split_at_uppercase("SplitAtUppercase"))  # ['', 'Split', 'At', 'Uppercase']
-    print(insert_spaces("InsertSpacesBetweenWords"))  # 'Insert Spaces Between Words'
-    print(camel_to_snake("CamelCaseToSnakeCase"))  # 'camel_case_to_snake_case'
+    print(insert_spaces("InsertSpaceBetweenWords"))  # 'Insert Space Between Words'
+    print(camel_to_snake("ILoveYouBabyMMMM"))  # 'i_love_you_baby_mmmm'
